@@ -1,0 +1,137 @@
+html{
+  font-family: 'Roboto', sans-serif;
+  color:white ;
+  background-color: black;
+  height: 100%;
+}
+
+.container{
+  max-width:1200px;
+  margin: 0 auto;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  height:80px;
+  width:100%;
+}
+
+.logo{
+  width:80px;
+  margin: auto 0;
+}
+
+
+.primary-navigation {
+  display: flex;
+  list-style: none;
+  margin: 0 25px 0 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+.nav-item {
+  font-size: 15px;
+  margin: auto 10px;
+  width: 100px;
+  text-align: center;
+}
+
+.nav-link {
+  color:white ;
+  text-decoration:none;
+}
+
+.name-tag{
+ text-align:center;
+ margin-top:150px;
+ font-size:75px;
+ letter-spacing: 10px;
+}
+
+.job-title{
+  text-align:center;
+  font-size:50px;
+  letter-spacing: 10px;
+}
+
+.down-arrow{
+  width:100%;
+  width:100px;
+}
+
+.resume-tag{
+  text-align:center;
+  margin-top:100px;
+  font-size:50px;
+  letter-spacing: 10px;
+}
+
+.contact-info{
+text-align: left;
+}
+
+.contact-list{
+  list-style: none;
+  text-align: left;
+}
+
+.bean{
+  width: 500px;
+  margin-left: 60px;
+  margin-top: 50px;
+  float: left;
+  padding-right: 50px;
+}
+
+.short{
+text-align: left
+letter-spacing: 3px;
+padding-top:50px;
+line-height:30px;
+padding:20px;
+}
+
+.me{
+  width:400px;
+  float:right;
+}
+
+.skills{
+  margin-left:150px;
+  font-size:50px;
+  letter-spacing:10px;
+}
+
+.skills-list{
+list-style-type:circle;
+line-height:30px;
+}
+
+.workshop{
+  width:500px;
+  padding-left:30px;
+}
+
+.cycle{
+  width: 260px;
+  padding-left:30px;
+}
+
+.heading{
+  padding-left:30px;
+  letter-spacing:3px;
+}
+
+.heading2{
+  font-size:15px;
+  letter-spacing:3px;
+  padding-left:30px;
+  line-height:1px;
+}
+
+.how-can{
+  padding-left:30px;
+  line-height:1px;
+}
