@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="CSS/mystyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body class="container">
@@ -27,6 +28,12 @@
         <li class="nav-item">
           <a href="/portfolio.html" class="nav-link">Portfolio</a>
         </li>
+        <li class="nav-item">
+          <a href="/portfolio.html" class="nav-link">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <input type="checkbox" id="switch" class="nav-link"/><label for="switch">Toggle</label>
+        </li>
       </ul>
     </header>
     <section class="">
@@ -36,27 +43,24 @@
       <img src="images/b4hpdx2.png" class="workshop">
       <h2 class="heading">B4HPDX</h2>
       <h3 class="heading2">BIKES FOR HUMANITY</h3>
-      <p class="short">
+      <p class="how-can">
         How can we better help the cyclist 
         community in Portland, Oregon?
       </p>
     </div>
     <footer>
-      <div class="contact-info">
-        <h3>Contact Us</h3>
-        <ul class="contact-list">
-          <li><i class="phone"></i> (406)794-5965</li>
-          <li><i class="email"></i>ryschlaht1@gmail.com</li>
-        </ul>
-      </div>
       <div class="social-links">
-        <h3>Follow Me</h3>
-        <ul>
-          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-        </ul>
-      </div>
+        <a href="https://www.instagram.com/rylee.schlaht/"><img src="images/insta.png" class="instagram"></a>
+        <a href="ryschlaht1@gmail.com"><img src="images/email.png" class="email"></a>
+        <a href="https://www.linkedin.com/in/rylee-schlaht-1567b0218/"><img src="images/linkedin.png" class="linkedin"></a>
+        </div>
     </footer>
+    <video playsinline autoplay muted loop poster="images/stars.jpg" id="day">
+      <source src="images/daytime.mp4" type="video/webm">
+    </video>
+    <video playsinline autoplay muted loop poster="images/stars.jpg" id="stars">
+      <source src="images/stary.mp4" type="video/webm">
+    </video>
   </body>
+  <script src="js/index.js"></script>
 </html>
